@@ -15,5 +15,5 @@ set(MAIN_FILE src/main.cpp)
 
 add_executable(demo ${MAIN_FILE} src/fib.cpp)
 
-add_executable(test ${UNIT_TESTS} src/fib.cpp)
-target_link_libraries(test gtest ${CMAKE_THREAD_LIBS_INIT})
+add_executable(demo-test ${UNIT_TESTS} src/fib.cpp)
+target_link_libraries(demo-test gtest ${CMAKE_THREAD_LIBS_INIT})
