@@ -8,6 +8,10 @@ include(gtest.cmake)
 
 find_package(Threads)
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++1z -Wall -Wextra -Werror")
+
+set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3")
+
 set(UNIT_TESTS test/test.cpp)
 set(MAIN_FILE src/main.cpp)
 

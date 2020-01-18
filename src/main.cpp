@@ -1,7 +1,7 @@
 #include <iostream>
 #include "fib.hpp"
 
-int main(int argc, char** argv)
+int main()
 {
   Fib * fib = new Fib();
   int n = 0;
