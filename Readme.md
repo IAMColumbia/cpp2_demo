@@ -1,7 +1,10 @@
 ## CPP 2 Demo ##
 [![Build Status](https://travis-ci.org/IAMColumbia/cpp2_demo.svg?branch=master)](https://travis-ci.org/IAMColumbia/cpp2_demo)
 
-
+to add the gtest library to your project 
+```
+git submodule add https://github.com/google/googletest.git
+```
 
 ## Building ##
 ### Linux/OSX ###
