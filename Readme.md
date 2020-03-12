@@ -6,6 +6,8 @@ to add the gtest library to your project
 git submodule add https://github.com/google/googletest.git
 ```
 
+(make sure you are in a git repository with ```git init```
+
 ## Building ##
 ### Linux/OSX ###
 prerequisites
